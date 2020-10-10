@@ -1,13 +1,11 @@
 <template>
     <div class="portal-page">
-        <AppHeader>
-            <template #title>Potal Template</template>
-        </AppHeader>
+        <AppHeader />
     </div>
 </template>
 <script lang="ts">
 import { defineComponent, ref } from "vue";
-import AppHeader from "@client/components/molecules/AppHeader.vue";
+import AppHeader from "@client/components/organisms/AppHeader.vue";
 
 export default defineComponent({
     components: {
