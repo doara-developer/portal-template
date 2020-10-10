@@ -1,15 +1,18 @@
 <template>
     <div class="portal-page">
-        <AppHeader />
+        <Header />
+        <AppList />
     </div>
 </template>
 <script lang="ts">
 import { defineComponent, ref } from "vue";
-import AppHeader from "@client/components/organisms/AppHeader.vue";
+import Header from "@client/components/organisms/Header.vue";
+import AppList from "@client/components/organisms/AppList.vue";
 
 export default defineComponent({
     components: {
-        AppHeader,
+        Header,
+        AppList,
     },
 });
 </script>

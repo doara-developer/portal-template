@@ -1,29 +1,29 @@
 <template>
-    <div class="app-header">
+    <div class="header">
         <AppMenu />
-        <AppTitle>Potal Template</AppTitle>
+        <HeaderTitle>Potal Template</HeaderTitle>
     </div>
 </template>
 <script lang="ts">
 import { defineComponent, ref } from "vue";
-import AppTitle from "@client/components/atoms/AppTitle.vue";
+import HeaderTitle from "@client/components/atoms/HeaderTitle.vue";
 import AppMenu from "@client/components/molecules/AppMenu.vue";
 
 export default defineComponent({
     components: {
         AppMenu,
-        AppTitle,
+        HeaderTitle,
     },
 });
 </script>
 <style lang="scss" scoped>
-.app-header {
+.header {
     width: 100%;
     height: 45px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     background-color: sandybrown;
     color: white;
-    align-items: center;
 }
 </style>
