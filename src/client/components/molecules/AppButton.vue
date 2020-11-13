@@ -20,5 +20,6 @@ export default defineComponent({
 .app-button {
     width: 140px;
     height: 160px;
+    cursor: pointer;
 }
 </style>

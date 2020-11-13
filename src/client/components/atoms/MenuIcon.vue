@@ -16,6 +16,7 @@ export default defineComponent({});
     height: 20px;
     display: block;
     margin: 0 20px 0 15px;
+    cursor: pointer;
     span {
         position: absolute;
         display: block;
