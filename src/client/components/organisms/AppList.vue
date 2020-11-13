@@ -22,6 +22,6 @@ export default defineComponent({
 .app-list {
     padding-left: 35px;
     padding-top: 10px;
-    color: sandybrown;
+    color: #24292e;
 }
 </style>

@@ -10,6 +10,6 @@ export default defineComponent({});
     width: 120px;
     height: 120px;
     margin: 0 auto;
-    background-color: sandybrown;
+    background-color: #24292e;
 }
 </style>

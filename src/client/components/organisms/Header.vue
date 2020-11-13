@@ -23,7 +23,7 @@ export default defineComponent({
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: sandybrown;
+    background-color: #24292e;
     color: white;
 }
 </style>
